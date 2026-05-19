@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SomniaLab",
   description: "Deep sleep. Better recovery. Better life.",
+  openGraph: {
+    title: "SomniaLab",
+    description: "Deep sleep. Better recovery. Better life.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
@@ -35,4 +40,3 @@ export default function RootLayout({
     </html>
   );
 }
-
